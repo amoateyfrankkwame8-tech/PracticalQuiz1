@@ -1,0 +1,161 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #999;
+	padding: 20px;
+}
+
+#page_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 5px solid #00cc00;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#page_header {
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 30px;
+	position: relative;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#page_header h1 {
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin: 0;
+}
+
+#page_header p {
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 5px 0 0 0;
+}
+
+#page_content {
+	display: flex;
+	min-height: 400px;
+}
+
+#left_side {
+	flex: 1;
+	padding: 20px;
+	background-color: #ffffcc;
+	border-right: 1px solid #ccc;
+}
+
+.section {
+	margin-bottom: 20px;
+}
+
+.section h2 {
+	color: #a67c52;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 5px;
+}
+
+.section p {
+	color: #333;
+	font-size: 13px;
+	line-height: 1.6;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#right_side {
+	width: 250px;
+	padding: 20px;
+	background-color: #f5f5dc;
+}
+
+#info_box {
+	background-color: #fffacd;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+#info_box h3 {
+	background-color: #8b8b66;
+	color: white;
+	padding: 8px 12px;
+	margin: -15px -15px 15px -15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.category {
+	margin-bottom: 15px;
+}
+
+.category_title {
+	font-weight: bold;
+	color: #333;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+#info_box ul {
+	list-style: none;
+	margin-left: 15px;
+}
+
+#info_box li {
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+#info_box li:before {
+	content: "■ ";
+	color: #a67c52;
+	margin-right: 5px;
+}
+
+#info_box a {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+#info_box a:hover {
+	color: #003399;
+}
+
+#page_footer {
+	background-image: url('../img/footer.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 13px;
+	border-top: 1px solid #555;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#page_footer p {
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 20px;
+	border-radius: 4px;
+}
